@@ -13,23 +13,23 @@ RSpec.describe '#chunk' do
   end
 
   it 'chunk divides an array of 3 elements with chunk size 1' do
-    arr = [1, 2, 3];
-    chunked = chunk(arr, 1);
+    arr = [1, 2, 3]
+    chunked = chunk(arr, 1)
 
-    expect(chunked).to eq([[1], [2], [3]]);
+    expect(chunked).to eq([[1], [2], [3]])
   end
 
   it 'chunk divides an array of 5 elements with chunk size 3' do
-    arr = [1, 2, 3, 4, 5];
-    chunked = chunk(arr, 3);
+    arr = [1, 2, 3, 4, 5]
+    chunked = chunk(arr, 3)
 
-    expect(chunked).to eq([[1, 2, 3], [4, 5]]);
+    expect(chunked).to eq([[1, 2, 3], [4, 5]])
   end
 
   it 'chunk divides an array of 13 elements with chunk size 5' do
-    arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-    chunked = chunk(arr, 5);
+    arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    chunked = chunk(arr, 5)
 
-    expect(chunked).to eq([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13]]);
+    expect(chunked).to eq([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13]])
   end
 end

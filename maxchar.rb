@@ -13,7 +13,6 @@ def maxchar (str)
       empty[key.to_sym] = empty[key.to_sym] + 1
     end
   end
-  puts empty
 
   test_value = 0
   @most_char = []
