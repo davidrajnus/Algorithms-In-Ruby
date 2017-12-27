@@ -3,9 +3,9 @@
 # are rearranged, are equal to one another
 
 def anagram (str1, str2)
-
-  str1_hash = str_to_hash(str1.downcase)
-  str2_hash = str_to_hash(str2.downcase)
+  # to downcase and remove non alphanumeric characters 
+  str1_hash = str_to_hash(str1.downcase.gsub(/(\W)/, ""))
+  str2_hash = str_to_hash(str2.downcase.gsub(/(\W)/, ""))
 
   if str1_hash == str2_hash
     return true
