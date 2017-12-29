@@ -20,8 +20,11 @@ class Queue
   end
 
   def remove
-    @store.pop
-    return @store
+    return @store.pop
+  end
+
+  def peek
+    return @store[@store.length-1]
   end
 
 end

@@ -10,7 +10,7 @@ RSpec.describe '#queue' do
   it 'can remove elements from a queue' do
     x = Queue.new
     x.add(1)
-    expect(x.remove).to eq([])
+    expect(x.remove).to eq(1)
   end
   
   it 'Order of elements is maintained' do
