@@ -7,6 +7,7 @@
 # Example:
 # fib(4) === 3
 
+# Linear Runtime O(n)
 def fibonacci (num)
   #set initial values in fibonacci series
   arr = [0, 1]
@@ -21,9 +22,10 @@ def fibonacci (num)
   end
 end
 
-# puts fibonacci(5)
+puts fibonacci(5)
 
 # Recursive Fibonacci Solution
+# Exponential Runtime O(2^n)
 # def fibonacci (num )
 
 #   if num < 2
@@ -34,3 +36,16 @@ end
 # end
 
 # puts fibonacci(5)
+
+# Recursive Fibonacci Solution with Memoization
+# @cache = [0,1]
+ 
+# def fibonacci(num)
+#   if @cache[num]
+#     return @cache[num]
+#   else
+#     return @cache[num] = fibonacci(num-1) + fibonacci(num-2)
+#   end
+# end
+
+# puts fibonacci(15)

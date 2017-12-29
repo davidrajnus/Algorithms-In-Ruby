@@ -18,7 +18,7 @@ RSpec.describe '#fibonacci' do
     expect(fibonacci(4)).to eq(3)
   end
 
-  it 'calculates correct fib value for 15' do
+  it 'calculates correct fib value for 39' do
     expect(fibonacci(39)).to eq(63245986)
   end
 
