@@ -1,6 +1,6 @@
 require './linkedlist/linkedlist'
 
-RSpec.describe '#queue' do
+RSpec.describe '#linkedlist' do
 
   context "A node" do
     it 'has properties "data" and "next"' do
