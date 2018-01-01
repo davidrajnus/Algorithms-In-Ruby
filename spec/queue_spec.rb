@@ -1,4 +1,4 @@
-require './queue'
+require './queue/queue'
 
 RSpec.describe '#queue' do
 

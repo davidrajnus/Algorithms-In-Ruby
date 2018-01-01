@@ -1,5 +1,5 @@
-require './queue'
-require './weave'
+require './queue/queue'
+require './weave/weave'
 
 RSpec.describe '#weave' do
 

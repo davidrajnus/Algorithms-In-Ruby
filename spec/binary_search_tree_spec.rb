@@ -1,4 +1,4 @@
-require './binary_search_tree/binary_search_tree'
+require './binary_search_tree/binary_search_tree.rb'
 
 RSpec.describe '#binary_search_tree' do
 

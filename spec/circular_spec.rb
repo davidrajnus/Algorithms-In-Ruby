@@ -1,4 +1,4 @@
-require './circular/circular'
+require './circular/circular.rb'
 
 RSpec.describe '#circular' do
 

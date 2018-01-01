@@ -20,7 +20,7 @@
  #    q.remove() // 2
  #    q.remove() // 'There'
 
-require './queue'
+require './queue/queue'
 
 def weave(sourceOne, sourceTwo)
   q = Queue.new

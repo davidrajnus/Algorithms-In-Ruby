@@ -1,5 +1,5 @@
 require './levelwidth/tree'
-require './levelwidth/levelwidth'
+require './levelwidth/levelwidth.rb'
 
 RSpec.describe '#levelwidth' do
 

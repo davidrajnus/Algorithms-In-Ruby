@@ -1,4 +1,4 @@
-require './qfroms'
+require './qfroms/qfroms.rb'
 
 RSpec.describe '#queue' do
 

@@ -9,7 +9,7 @@
  #     q.remove(); // returns 1
  #     q.remove(); // returns 2
 
- require './stack'
+ require './stack/stack'
 
 class Queue
   # attr_accessor :stackOne, :stackTwo

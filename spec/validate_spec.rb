@@ -1,5 +1,5 @@
 require './validate/binary_search_tree'
-require './validate/validate'
+require './validate/validate.rb'
 
 RSpec.describe '#validate' do
 

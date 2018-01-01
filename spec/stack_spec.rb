@@ -1,4 +1,4 @@
-require './stack'
+require './stack/stack.rb'
 
 RSpec.describe '#stack' do
 

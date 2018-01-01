@@ -1,4 +1,4 @@
-require './linkedlist/linkedlist'
+require './linkedlist/linkedlist.rb'
 
 RSpec.describe '#linkedlist' do
 

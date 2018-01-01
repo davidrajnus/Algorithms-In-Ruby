@@ -1,4 +1,4 @@
-require './fromlast/fromlast'
+require './fromlast/fromlast.rb'
 
 RSpec.describe '#fromlast' do
 
